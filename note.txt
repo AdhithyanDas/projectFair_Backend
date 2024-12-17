@@ -1,0 +1,14 @@
+JWT(JSONWEBTOKEN) :-
+-A more compact authentication approach by using a specific classified value called token
+-An authorised user will be provided with a signature value called 'token', which can be used for permissions in the further requests
+-JSONWEBTOKEN for node.js
+-npm i jsonwebtoken
+-Uses sign() method for creating token for a valid user, and verify() for checking a token/signature validity
+--------------------------------------------------------------------------------------------------------------------
+Context Api :-
+-Concept for passing data from one component two other without passing it down through every levels of component tree
+-Another solution for props drilling
+-Easy implementaion
+
+-createContext() :- To create context-instances for passing data
+-useContext() :- Hook for accessing data from contexts
